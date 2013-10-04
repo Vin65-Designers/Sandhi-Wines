@@ -22,6 +22,15 @@ Thumbs.db
 _gsdata_
 Application.cfc
 index.cfm
+blank.gif
+empty.empty
+www/emailTracking
+www/assets/images/blog
+www/assets/images/contentblock
+www/assets/images/photogallery
+www/assets/images/pods
+www/assets/images/products
+www/assets/images/recipes
 
 ###
 # Sublime
