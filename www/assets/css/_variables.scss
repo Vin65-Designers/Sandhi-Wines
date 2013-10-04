@@ -1,0 +1,93 @@
+// Global Variables
+
+//Fonts
+$georgia: georgia, serif;
+$gothbook: "gothbook", "helvetica neue", helvetica, arial, sans-serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lustria: "Lustria", serif;
+$kameron: "Kameron", serif;
+
+// Colors
+$gold: #dcb353;
+$grey: #575757;
+$grey-light: #ccc;
+$grey-dark: #333;
+$black: #000;
+$white: #fff;
+$offWhite: #f9f9f9;
+$green-light: #7fbf4d;
+$green-dark: #63a62f;
+$green-hover-light: #76b347;
+$green-hover-dark: #5e9e2e;
+
+$backgroundColor: #f1f1f1; // Website Background Color
+$maxWidth: 980px;
+
+
+
+$linkColor: #a6783e;
+
+$fontColor: #111; // General Font Color
+$fontFamily: $lustria;
+
+$headingFontFamily: $georgia;
+$headingColor: $grey-dark; // Default Heading Font Color
+
+$userToolsBackgroundColor: #000; //Background Color for usertools
+$userToolsColor: #fff; //Font Color for usertools
+$userToolsLinkColor: #ccc; //Font Color for usertools
+$userToolsHoverColor: #fff; //Font Color for usertools
+
+$featurebackgroundColor: #303030; // Feature Image Background Color
+
+$navLinkColor: #fff; //Font Color for main navigation
+$navLinkColorHover: $gold; //Font Color for main navigation
+$navBackgroundColor: #2a2924; //Color for nav background
+$navBackgroundColorHover: #c2984d; //Color for link color
+
+$subNavLinkColor: #000; //Font Color for sub navigation
+$subNavLinkColorHover: #a6783e; //Font Color for sub navigation
+
+$buttonColor: $green-light; // Default Color for Buttons
+$buttonFontColor: $white; // Default Color for Button Font
+
+$altButtonColor: lighten($buttonColor, 20%); // Alt Color for Buttons
+$altButtonFontColor: $white; // Alt Color for Buttons Font
+
+$buttonFontFamily: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; // Default Font Family for Buttons
+
+$homepageContentColor: $white; // Homepage content background color
+
+$contentBackgroundColor: $white; //Content background color
+
+$footerBackground: #000; //Footer Background Color
+$footerColor: #666; //Footer Color
+$footerLink: #ccc; // Footer Link
+$footerLinkHover: $white; // Footer Link Hover
+
+@mixin gradient($color1, $color2){
+	background-color: $color1;
+	background-image: -webkit-linear-gradient(top, $color1, $color2);
+	background-image: -moz-linear-gradient(top, $color1, $color2);
+	background-image: -ms-linear-gradient(top, $color1, $color2);
+	background-image: -o-linear-gradient(top, $color1, $color2);
+	background-image: linear-gradient(top, $color1, $color2);
+}
+
+@mixin boxSizing{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.hideText{
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	
+	a{
+		display:block;
+		height:100%;
+	}
+}

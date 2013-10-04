@@ -1,0 +1,14 @@
+.checkout{
+	font-size: 12px;
+
+	button{
+		&.modalBtn, &.altModalBtn{
+			height: auto;
+			line-height: inherit;
+		}
+	}
+}
+
+#v65-cartFooter{
+	padding-bottom: 1em;
+}

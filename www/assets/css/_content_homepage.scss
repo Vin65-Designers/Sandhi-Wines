@@ -1,0 +1,129 @@
+.homepageContent {
+	padding: 40px 0;
+
+	@media screen and (max-width : 970px) {
+		padding: 20px 0;
+	}
+
+}
+
+	.homepageImage {
+		float: left;
+		margin-bottom: 2em;
+		margin-right: 3%;
+		max-width: 285px;
+		width: 30%;
+
+		@media screen and (max-width : 580px) {
+			float: none;
+			margin-right: 0;
+			max-width: 480px;
+			text-align: center;
+			width: 100%;
+		}
+	}	
+
+	.homepageText {
+		color: $homepageContentColor;
+		float: left;
+		width: 67%;
+
+		@media screen and (max-width : 580px) {
+			float: none;
+			margin: 0;
+			width: 100%;
+		}
+
+	}
+
+.homepageContentItems {
+	background: $contentBackgroundColor;
+	padding: 40px 0;
+
+	article {
+		float: left;
+		margin: 0 1% 0 2%;
+		width: 30%;
+
+		@media screen and (max-width : 680px) {
+			float: none;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+		.v65-productGroup-title, .v65-event-upcoming-title, .v65-podTitle {
+		    border-top: 1px solid lighten($headingColor, 40%);
+		    border-bottom: 1px solid lighten($headingColor, 40%);
+			color: $headingAltColor;
+			font-family: $headingFontFamily;
+			font-size: 1.166666666667em;
+			font-style: normal;
+			font-weight: normal;
+		    line-height: 2.4em;
+		    margin-bottom: 1em;
+		    text-align: center;
+		    text-transform: uppercase;
+		}
+
+	}
+
+	.v65-event-upcoming-event {
+		border-bottom: 1px solid lighten($headingColor, 40%);
+		margin-bottom: 1.5em;
+		padding-bottom: 1.5em;
+		text-align: left;
+	}
+
+		.v65-event-upcoming-event-date {
+		}
+
+		.v65-event-upcoming-event-time {
+			display: block;
+			margin-bottom: 0.5em;
+		}
+
+		.v65-event-upcoming-event-title {
+			display: block;
+			font-family: $headingFontFamily;
+			font-style: italic;
+		}
+
+
+	.v65-productGroup-products {
+		margin-bottom: 2em;
+		text-align: left;
+	}
+
+		.productPhoto {
+			float: left;
+			margin: 0 2% 0 0;
+			position: relative;
+			text-align: center;
+			width: 25%;
+		}
+
+		.productDescription {
+			float: left;
+			width: 73%;
+		}
+
+		.v65-product-title {
+			font-style: italic;
+		}
+
+		.v65-productGroup-teaser {
+			margin-bottom: 1em;
+			width: 100%;
+		}
+
+		.v65-productGroup-product {
+			clear: both;
+			float: none;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+		.v65-product-reviewStats {
+			display: none;
+		}
+}

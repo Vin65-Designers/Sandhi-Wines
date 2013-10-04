@@ -1,0 +1,65 @@
+.v65-club{
+	@include boxSizing;
+	position: relative;
+	line-height: 28px;
+	border: 1px dashed $grey-light;
+	background: $offWhite;
+	padding: 4% 3% 3%;
+
+	@media screen and (max-width: 700px){
+		margin-bottom: 40px;
+	}
+
+	@media screen and (min-width: 701px){
+		float: left;
+		margin-bottom: 100px;
+		margin-right: 2%;
+		width: 49%;
+		width: 48%\9;
+	}
+
+	&.noRightMargin{
+		float: right;
+	}
+
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li{
+		border-bottom: 1px dashed $grey-light;
+		font-size: 14px;
+		margin: 0 0 20px;
+		padding-bottom: 20px;		
+	}
+}
+
+	.v65-clubTitle{
+		border-bottom: 1px solid $grey-light;
+		font:{
+			family: $kameron;
+			size: 18px;
+		}
+		margin-bottom: 25px;
+		padding-bottom: 30px;
+		text:{
+			align: center;
+			transform: uppercase;
+		}
+
+		a{
+			color: #333;
+		}
+	}
+
+	.v65-clubTeaser{
+		border-bottom: 0;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.v65-clubJoin{
+		text-align: center;
+	}

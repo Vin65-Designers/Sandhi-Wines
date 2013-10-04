@@ -1,0 +1,90 @@
+footer {
+	border-top: 1px solid $grey-light;
+	color: $footerColor;
+	font-family: $gothbook;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+
+	nav{
+		float: none;
+		height: auto;
+		line-height: 2em;
+		margin-bottom: 1em;
+		min-height: 2em;
+		padding-top: 0;
+
+		ul{
+			margin-top: 0;
+		}
+
+		a{
+			color: #333;
+		}
+	}
+}
+
+	.footerWrapper{
+		max-width: 960px;
+	}
+
+	.newsletterSignup{
+		font-size: 11px;
+
+		h6{
+			color: $black;
+			font:{
+				family: $gothbook;
+				size: 11px;
+				style: normal;
+				weight: bold;
+			}
+			text-transform: uppercase;
+		}
+
+		button{
+			vertical-align: top;
+		}
+	}
+
+	.terroirSelections{
+		font-size: 10px;
+		letter-spacing: 1px;
+		line-height: 16px;
+		margin: 40px 0;
+		text-transform: uppercase;
+
+		p{
+			margin-bottom: 30px;
+		}
+
+		.v65-pod{
+			display: inline-block;
+			height: 40px;
+			margin: 0 -4px 1em 0;
+			width: 136px;
+
+			img{
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.copyright{
+		color: #928a85;
+		font-size: 10px;
+		line-height: 13px;
+		padding-bottom: 10px;
+
+		a{
+			text-decoration: underline;
+		}
+
+		.phone{
+			color: $grey-dark;
+			display: block;
+			font-size: 13px;
+			margin-bottom: 20px;
+			text-decoration: none;
+		}
+	}

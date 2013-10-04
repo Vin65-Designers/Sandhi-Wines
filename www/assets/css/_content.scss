@@ -1,0 +1,38 @@
+.content{
+	padding-top: 30px;
+}
+
+.message{
+	background: #d9efca;
+	border: 1px solid #58d93f;
+	border-radius: 5px;
+	color: #333;
+	display: block;
+	font-size: 13px;
+	margin: 10px auto 0;
+	padding: 10px 0px 8px 0px;
+	text-align: center;
+	max-width: 600px;
+}
+
+/* ----- a. Club Styles ----- */
+
+@import 'content_clubs';
+
+/* ----- b. Page Features ----- */
+
+@import 'content_features';
+
+/* ----- c. Store ----- */
+
+@import 'content_store';
+
+/* ----- d. Checkout ----- */
+
+@import 'content_checkout';
+
+/* ----- e. General ----- */
+
+.noRightMargin{
+	margin-right: 0;
+}

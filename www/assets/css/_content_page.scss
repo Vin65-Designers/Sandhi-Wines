@@ -1,0 +1,95 @@
+
+.pageContent {
+	background: $contentBackgroundColor;
+	padding: 40px 0;
+
+	@media screen and (max-width : 970px) {
+		padding: 20px 0;
+	}
+
+}
+
+.pageText {
+	float: right;
+	width: 75%;
+
+	@media screen and (max-width : 580px) {
+		float: none;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+}
+
+.pageWideText {
+	margin: 0 auto;
+	width: 80%;
+
+	@media screen and (max-width : 835px) {
+		float: none;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+}
+
+.colWrapper {
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+	.colWrapper:before,.colWrapper:after { content:""; display:table; }
+	.colWrapper:after { clear:both; }
+
+
+	.col2 { 
+		float: left;
+		margin-left: 6%;
+		width: 47%;
+	}
+
+	.col2:first-child { 
+		float: left;
+		margin-left: 0%;
+		width: 47%;
+	}
+
+	.col3 { 
+		float: left;
+		margin-left: 5%;
+		width: 30%;
+	}
+
+	.col3:first-child { 
+		float: left;
+		margin-left: 0%;
+		width: 30%;
+	}
+
+	@media screen and (max-width: 580px) {
+
+		.col2 { 
+			float: none;
+			margin-left: 0;
+			margin-bottom: 1.5em;
+			width: 100%;
+		}
+
+		.col2:first-child { 
+			float: none;
+			width: 100%;
+		}
+
+		.col3 { 
+			float: none;
+			margin-left: 0;
+			margin-bottom: 1.5em;
+			width: 100%;
+		}
+
+		.col3:first-child { 
+			float: none;
+			width: 100%;
+		}
+
+	}
